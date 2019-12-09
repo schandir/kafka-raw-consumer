@@ -1,0 +1,5 @@
+kafka:
+  consumer:
+    bootstrap: localhost:9092
+    group: SampleMessageApp
+    topic: samplemessages
