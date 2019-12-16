@@ -1,4 +1,4 @@
-package com.nathan.config;
+package com.nathan.kafka.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

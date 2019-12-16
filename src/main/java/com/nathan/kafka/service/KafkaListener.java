@@ -1,11 +1,11 @@
-package com.nathan.service;
+package com.nathan.kafka.service;
 
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.SmartLifecycle;
 import org.springframework.stereotype.Component;
-import com.nathan.domain.SampleMessage;
+import com.nathan.kafka.model.SampleMessage;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

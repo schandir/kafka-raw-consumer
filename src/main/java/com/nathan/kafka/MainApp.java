@@ -1,9 +1,9 @@
-package com.nathan;
+package com.nathan.kafka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import com.nathan.config.KafkaConsumerProperties;
+import com.nathan.kafka.config.KafkaConsumerProperties;
 
 @SpringBootApplication
 @EnableConfigurationProperties(KafkaConsumerProperties.class)

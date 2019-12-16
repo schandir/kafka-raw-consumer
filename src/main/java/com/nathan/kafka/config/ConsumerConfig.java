@@ -1,12 +1,12 @@
-package com.nathan.config;
+package com.nathan.kafka.config;
 
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.serialization.Deserializer;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import com.nathan.domain.SampleMessage;
-import com.nathan.serializer.JsonDeserializer;
+import com.nathan.kafka.model.SampleMessage;
+import com.nathan.kafka.serializer.JsonDeserializer;
 
 import java.util.Collections;
 import java.util.Properties;
